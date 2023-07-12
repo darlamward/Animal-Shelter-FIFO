@@ -17,9 +17,9 @@ public class AnimalShelter {
 
     public Animal dequeueAny() {
         if (animalQueue.isEmpty()) {
-            return null; // No animals in the com.keyin.shelter
+            return null;
         }
-        return animalQueue.poll();
+        return animalQueue.poll(); // No animals available
     }
 
     public Dog dequeueDog() {
